@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/avi-360/REPO.git'
+                git 'https://github.com/avi-360/Jenkinsfile.git'
             }
         }
 
